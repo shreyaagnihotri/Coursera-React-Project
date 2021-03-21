@@ -1,5 +1,5 @@
-import React, {Component, useState} from "react";
-import {Navbar, NavbarBrand, Jumbotron, Nav, NavItem, Form, Modal, Button, FormGroup} from "react-bootstrap";
+import React, {Component} from "react";
+import {Navbar, Jumbotron, Nav, NavItem, Form, Modal, Button, FormGroup} from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
 class Header extends Component{

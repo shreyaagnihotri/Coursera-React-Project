@@ -14,7 +14,7 @@ function About(props) {
     function RenderLeader(leader) {
         return(
             <Media as={"li"}>
-                <img height={"74"} width={"74"} className={"mr-5"} src={baseUrl+leader.image}/>
+                <img height={"74"} width={"74"} alt={leader.name} className={"mr-5"} src={baseUrl+leader.image}/>
                 <Media.Body>
                     <h4>{leader.name}</h4>
                     <h6>{leader.designation}</h6>
